@@ -1,0 +1,7 @@
+package org.example.customer_service.repositories;
+
+import org.example.customer_service.entities.customer;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface CustomerRepository extends JpaRepository<customer, Long> {
+}
